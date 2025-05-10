@@ -60,6 +60,7 @@ footer {
     padding: 1rem;
     text-align: center;
     grid-column: 1 / 4;
+    height: 50px;
 }
 
 main {
