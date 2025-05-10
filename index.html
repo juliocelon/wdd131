@@ -2,13 +2,100 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WDD 131 - Julio Celón - W01 Learning Activity: HTML and CSS Review </title>
+
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals - Julio César Celón Altamirano - W01 Assignment: Home Page">
+    <meta name="author" content="Julio Celon">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131 - Blazzard</h1>
+
+    <header>
+
+        <h1>WDD 131: Dynamic Web Fundamentals -
+            <span class="highlight-name">Julio César Celón Altamirano</span>
+        </h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/juliocelon" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/25?lang=eng&id=p10#p10"
+                        title="Scripture">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="card" id="card-about-me">
+
+            <div class="div-header">
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-me">
+                <p>Hi, I’m Julio Celón from Mexico City. I’m married and blessed with children who inspire me to be my
+                    best. I enjoy
+                    spending time with my family and friends. My family and my faith are a big part of who I am, and
+                    they motivate me to
+                    serve others and continue growing personally and professionally.</p>
+                <img src="images/profile.webp" alt="Hello, my name is Julio Celon" width="200">
+            </div>
+
+            <h3>Mexico City</h3>
+            <hr class="line-after-title">
+            <div class="city-info">
+                <figure>
+                    <img src="images/mexicocity.webp" alt="Mexico City">
+                    <figcaption>Mexico City skyline at sunset</figcaption>
+                </figure>
+                <p>Mexico City, the capital of Mexico, is one of the largest and most vibrant cities in the world.
+                    Surrounded by mountains
+                    and rich in history, it’s built on the ruins of the ancient Aztec capital, Tenochtitlán. Today, it’s
+                    a dynamic center of
+                    culture, cuisine, and art, known for its historic landmarks, museums, and colorful traditions.</p>
+            </div>
+
+        </section>
+
+        <section class="card" id="card-web-resources">
+
+            <div class="div-header">
+                <h2>Web Dev Resources</h2>
+            </div>
+
+            <div class="web-resources">
+                <ul class="list">
+                    <li><a href="https://dev.to/" title="Dev.to Community">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" title="Smashing Magazine">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" title="CSS Tricks">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" title="W3 Schools">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" title="Udemy">Udemy</a></li>
+                    <li><a href="https://placeholderimage.dev/" title="Image Placeholder">Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> 🌆 Julio Celón 🏙️ Mexico City </p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 
 </html>
