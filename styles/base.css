@@ -123,12 +123,12 @@ figcaption {
 }
 
 .highlight-name {
-    color: #D0A5C0;
+    color: #CCFFCC;
     font-size: 1.4rem;
 }
 
 #lastModified {
-    color: #D0A5C0;
+    color: #CCFFCC;
 }
 
 .div-header {
@@ -156,6 +156,6 @@ figcaption {
 .line-after-title {
     width: 500px;
     height: .1px;
-    background-color: #000;
+    background-color: #333;
     margin: 0 auto;
 }
