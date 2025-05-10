@@ -52,7 +52,6 @@ header h1 {
 
 main p {
     margin-left: 1rem;
-    background-color: red;
 }
 
 footer {
@@ -62,6 +61,7 @@ footer {
     text-align: center;
     grid-column: 1 / 4;
     height: 50px;
+    background-color: red;
 }
 
 main {
