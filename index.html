@@ -13,9 +13,17 @@
 
     <link rel="stylesheet" href="styles/base.css">
 
+    <!-- Preconexión a dominios de fuentes para acelerar la resolución DNS y handshake TLS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Preload del CSS de Google Fonts (no bloquea el render) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+
+    <!-- Carga diferida del CSS: no bloquea render -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" media="print"
+        onload="this.media='all'">
+
 
     <script src="scripts/getdates.js" defer></script>
 </head>
@@ -53,14 +61,14 @@
                     spending time with my family and friends. My family and my faith are a big part of who I am, and
                     they motivate me to
                     serve others and continue growing personally and professionally.</p>
-                <img src="images/profile.webp" alt="Hello, my name is Julio Celon" width="200">
+                <img src="images/profile.webp" alt="Hello, my name is Julio Celon" width="200" height="268">
             </div>
 
             <h3>Mexico City</h3>
             <hr class="line-after-title">
             <div class="city-info">
                 <figure>
-                    <img src="images/mexicocity.webp" alt="Mexico City">
+                    <img src="images/mexicocity.webp" alt="Mexico City" width="400" height="300">
                     <figcaption>Mexico City skyline at sunset</figcaption>
                 </figure>
                 <p>Mexico City, the capital of Mexico, is one of the largest and most vibrant cities in the world.

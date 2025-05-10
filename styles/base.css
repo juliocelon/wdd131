@@ -3,6 +3,12 @@
     font-size: large;
 }
 
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
 h1,
 h2 {
     font-family: 'Playfair Display', cursive;
@@ -86,7 +92,6 @@ main {
 }
 
 .city-info img {
-    width: 19rem;
     padding: 1rem;
 }
 
@@ -99,7 +104,6 @@ main {
 }
 
 .about-me img {
-    width: 10rem;
     padding: 1rem;
 }
 
