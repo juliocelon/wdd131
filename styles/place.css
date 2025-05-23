@@ -48,6 +48,16 @@ header h1 {
     white-space: nowrap;
 }
 
+header h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
 main {
     max-width: 2500px;
     margin: 1rem auto;
