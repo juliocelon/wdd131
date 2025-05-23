@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WDD 131 – W03 Assignment: Country Page - Julio Celón </title>
+
+    <meta name="description" content="WDD 131 – W03 Assignment: Country Page - Julio César Celón Altamirano">
+    <meta name="author" content="Julio Celón">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>México City</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+            <picture>
+                <source srcset="images/mexicocity-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/mexicocity-medium.webp" media="(min-width: 720px)">
+                <img src="images/mexicocity-small.webp" alt="México City Temple, México" width="400" height="500">
+            </picture>
+
+            <div class="container" id="data">
+                <h2>Data</h2>
+                <p>Area: 1,972,550 sq km</p>
+                <p>Population: 128,000,000,000</p>
+                <p>Capital: Mexico City</p>
+                <p>Languages: Spanish, and 68 indigenous languages</p>
+                <p>Currency: Mexican Peso</p>
+                <p>Time Zone: UTC-5</p>
+                <p>Calling Code: +52</p>
+                <p>Internet TLD: .mx</p>
+            </div>
+
+            <div class="container" id="weather">
+                <h2>Weather</h2>
+                <img src="images/partly-cloudy.svg" alt="Partly Cloudy Icon" class="weather-icon">
+                <p>Temperature: 7°C</p>
+                <p>Conditions: Partially Cloudy</p>
+                <p>Wind: 13 km/h </p>
+                <p>Wind Chill: 17°C</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> • Julio Celón • México City, México 🇲🇽 </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

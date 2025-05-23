@@ -1,0 +1,48 @@
+@media (min-width: 720px) {
+
+    main {
+        padding: 40px;
+        display: block;
+    }
+
+    .hero {
+        width: 100%;
+        max-width: none;
+
+        height: 600px;
+        position: relative;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero img {
+
+        height: auto;
+        width: 100%;
+
+        object-position: center;
+    }
+
+    #data,
+    #weather {
+        position: absolute;
+
+        color: #000;
+        padding: 30px;
+        border-radius: 12px;
+        width: 280px;
+    }
+
+    #data {
+        top: 40px;
+        left: 40px;
+    }
+
+    #weather {
+        bottom: 40px;
+        right: 40px;
+    }
+
+}
