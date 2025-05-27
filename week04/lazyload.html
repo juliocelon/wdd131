@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WDD 131 – W04 Learning Activity: Lazyloading Images - Julio Celón </title>
+
+    <meta name="description"
+        content="WDD 131 – W04 Learning Activity: Lazyloading Images - Julio César Celón Altamirano">
+    <meta name="author" content="Julio Celón">
+
+    <link rel="stylesheet" href="styles/lazyload.css">
+
+    <!-- Preconexión a dominios de fuentes para acelerar la resolución DNS y handshake TLS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload del CSS de Google Fonts (no bloquea el render) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+
+    <!-- Carga diferida del CSS: no bloquea render -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" media="print"
+        onload="this.media='all'">
+
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1 class="main-title">Lazyloading Images</h1>
+
+        <div class="section-container">
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+            <figure>
+                <img src="https://picsum.photos/400/601" alt="Mexico" loading="lazy" width="400" height="601">
+            </figure>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> • Julio Celón • México City, México 🇲🇽 </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
