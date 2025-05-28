@@ -1,0 +1,48 @@
+@media (min-width: 950px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+
+        gap: 2.8rem;
+        position: static;
+    }
+
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding: 0.75rem 1rem;
+        background-color: transparent;
+    }
+
+    .navigation a:hover {
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-color: #fffacd;
+    }
+}
+
+@media (min-width: 600px) {
+    .section-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .section-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 2000px) {
+    .section-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
