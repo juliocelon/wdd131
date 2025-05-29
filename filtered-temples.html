@@ -14,8 +14,15 @@
     <link rel="stylesheet" href="styles/filtered-temples.css">
     <link rel="stylesheet" href="styles/filtered-temples-large.css">
 
-    <!-- Google Fonts: método simple y validado -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Preconexión a dominios de fuentes para acelerar la resolución DNS y handshake TLS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <!-- Carga diferida del CSS: no bloquea render -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" media="print"
+        onload="this.media='all'">
 
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/filtered-temples.js" defer></script>
