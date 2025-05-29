@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 main {
@@ -31,9 +31,6 @@ main h1 {
 
 figure {
     padding: 1rem;
-}
-
-figure {
     text-align: center;
 }
 
