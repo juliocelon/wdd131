@@ -121,14 +121,16 @@ h1 {
     box-shadow: 1px 1px 4px #999;
 }
 
-.wfl input:required,
-.wfl select:required {
+.wfl input:required:valid,
+.wfl select:valid {
+    border-bottom: solid 8px green;
+}
+
+.wfl input:invalid,
+.wfl select:invalid {
     border-bottom: solid 8px red;
 }
 
-.wfl input:required:valid {
-    border-bottom: solid 8px green;
-}
 
 /*----------- REVIEW STYLING --------------*/
 
@@ -140,4 +142,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+}
+
+.wfl label.title,
+.wfl div.title {
+    display: block;
+    margin-top: 0.5rem;
 }

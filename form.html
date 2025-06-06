@@ -34,32 +34,34 @@
         <form method="get" action="review.html" class="wfl">
 
             <fieldset>
-                <label>Product Name *
+
+                <label class="title">Product Name *
                     <select name="product" id="product" required>
                         <option value="" disabled selected>Choose a Product ... &#9662;</option>
                     </select>
                 </label>
 
-                <div>Overall Rating *</div>
+                <div class="title">Overall Rating *</div>
                 <label><input type="radio" name="rating" id="star1" required>&star;</label>
                 <label><input type="radio" name="rating" id="star2">&star;&star;</label>
                 <label><input type="radio" name="rating" id="star3">&star;&star;&star;</label>
                 <label><input type="radio" name="rating" id="star4">&star;&star;&star;&star;</label>
                 <label><input type="radio" name="rating" id="star5">&star;&star;&star;&star;&star;</label>
 
-                <label>Date of Installation *<input type="date" name="installationDate" id="installationDate"
-                        required></label>
+                <label class="title">Date of Installation *<input type="date" name="installationDate"
+                        id="installationDate" required></label>
 
-                <div>Which features did you find useful in the product? <br><i>(Check all that apply)</i></div>
+                <div class="title">Which features did you find useful in the product? <br><i>(Check all that apply)</i>
+                </div>
                 <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
                 <label><input type="checkbox" id="easy" name="easy" value="yes">Easy of Use</label>
                 <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
                 <label><input type="checkbox" id=design name="design" value="yes">Design</label>
 
-                <label>Written Review <i>(Optional)</i><textarea id="review" name="review" rows="5"
+                <label class="title">Written Review <i>(Optional)</i><textarea id="review" name="review" rows="5"
                         cols="40"></textarea></label>
 
-                <label>Your Name <i>(Optional)</i> <input type="text" id="fname" name="fname"></label>
+                <label class="title">Your Name <i>(Optional)</i> <input type="text" id="fname" name="fname"></label>
 
             </fieldset>
             <input type="submit" value="Post Review">
