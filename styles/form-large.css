@@ -1,0 +1,66 @@
+/* Medium screens */
+@media (min-width: 600px) {
+
+    .wfl {
+        max-width: 400px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Large screens */
+@media (min-width: 950px) {
+    .wfl fieldset {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .1rem;
+    }
+
+    .wfl label,
+    .wfl div {
+        grid-column: span 2;
+    }
+
+    .wfl input[type="radio"],
+    .wfl input[type="checkbox"] {
+        margin-right: 4px;
+        vertical-align: middle;
+    }
+
+    .wfl input[type="submit"] {
+        grid-column: span 2;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1000px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    .wfl {
+        max-width: 400px;
+    }
+
+    .wfl textarea {
+        height: 150px;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* Ultra-wide screens */
+@media (min-width: 2000px) {
+    .wfl {
+        max-width: 400px;
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+}
