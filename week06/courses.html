@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WDD 131 – W06 Project - Julio Celón </title>
+
+    <meta name="description" content="WDD 131 – W06 Project - Julio Celón">
+    <meta name="author" content="Julio Celón">
+
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Professional English</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="project.html" title="Home">Home</a></li>
+                <li><a href="courses.html" title="Courses">Courses</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <div class="hero">
+
+            <picture>
+                <source srcset="images/courses-large.webp" loading="lazy" media="(min-width: 1000px)">
+                <source srcset="images/courses-medium.webp" loading="lazy" media="(min-width: 720px)">
+                <img src="images/courses-small.webp" alt="Courses in Professional English" loading="lazy" width="400"
+                    height="500">
+            </picture>
+
+            <div class="container" id="data">
+                <h2>Courses</h2>
+                <ul>
+                    <li>Basic</li>
+                    <li>Intermediate</li>
+                    <li>Advanced</li>
+                    <li>Perfectionamient</li>
+                    <li>Conversation</li>
+                    <li>TOEFL Preparation</li>
+                    <li>Business English</li>
+                </ul>
+            </div>
+
+            <div class="container" id="weather">
+                <h2>Special Courses</h2>
+                <img src="images/check.svg" alt="Check Icon" class="check-icon">
+                <ul>
+                    <li>Reading Comprehension</li>
+                    <li>English for Kids</li>
+                    <li>Business English</li>
+                    <li>Private Tutoring</li>
+                    <li>Regularization Classes</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> • Julio Celón • México City, México 🇲🇽 </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
