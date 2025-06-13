@@ -16,13 +16,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/project.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 
 <body>
@@ -51,8 +50,9 @@
 
                 <label> First Name* <input type="text" name="fname" required> </label>
                 <label> Last Name* <input type="text" name="lname" required> </label>
-                <label> Phone <input type="tel" name="phone" placeholder="1235551234"> </label>
-                <label> Email* <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
+                <label> Phone <input type="tel" name="phone" placeholder="1235551234" autocomplete="tel"> </label>
+                <label> Email* <input type="email" name="email" placeholder="someone@gmail.com" autocomplete="email"
+                        required> </label>
 
             </fieldset>
 
